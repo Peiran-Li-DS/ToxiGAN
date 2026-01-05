@@ -16,3 +16,9 @@ The black arrow shows the initial generation after pretraining. Gray arrows repr
 t-SNE visualization of real and synthetic texts. Arrows indicate semantic shifts: neutral to toxic (green), out-of-domain to in-domain (purple), and their composite (blue).
 
 <img src="figures/t-sne.png" width="50%">
+
+## Run ToxiGAN
+Direct to [ToxiGAN/](ToxiGAN/): Run train.py for training ToxiGAN. 
+```
+python ToxiGAN/train.py 
+```
