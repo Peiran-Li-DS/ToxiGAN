@@ -17,8 +17,13 @@ t-SNE visualization of real and synthetic texts. Arrows indicate semantic shifts
 
 <img src="figures/t-sne.png" width="50%">
 
-## Run ToxiGAN
+## To Start
 Direct to [ToxiGAN/](ToxiGAN/): Run train.py for training ToxiGAN. 
 ```
 python ToxiGAN/train.py 
 ```
+After training of ToxiGAN, generate samples by command.
+```
+python ToxiGAN/generate_samples.py 
+```
+
