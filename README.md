@@ -11,7 +11,7 @@ ToxiGAN with k toxic generators, one neutral texts provider, and one multi-class
 ## Illustration of Two-Step Alternating Directional Learning in Embedding Space
 The black arrow shows the initial generation after pretraining. Gray arrows represent updates during alternating optimization: shifting toward toxicity and authenticity directions by penalizing unexpected directional evaluations.
 
-<img src="figures/Two-Step.png" width="60%">
+<img src="figures/Two-Step.png" width="40%">
 
 t-SNE visualization of real and synthetic texts. Arrows indicate semantic shifts: neutral to toxic (green), out-of-domain to in-domain (purple), and their composite (blue).
 
