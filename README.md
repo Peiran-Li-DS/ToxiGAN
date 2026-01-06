@@ -18,12 +18,19 @@ t-SNE visualization of real and synthetic texts. Arrows indicate semantic shifts
 <img src="figures/t-sne.png" width="50%">
 
 ## To Start
+Requirements
+- Python 3.10
+- PyTorch 2.6.0 + CUDA/cuDNN backend
+- transformers==4.53.3
+- sentence-transformers==4.1.0
+- scikit-learn==1.6.1
+
 Direct to [ToxiGAN/](ToxiGAN/): Run train.py for training ToxiGAN. 
 ```
-$ python ToxiGAN/train.py 
+$ python train.py 
 ```
 After training of ToxiGAN, generate samples by command.
 ```
-$ python ToxiGAN/generate_samples.py 
+$ python generate_samples.py 
 ```
 
