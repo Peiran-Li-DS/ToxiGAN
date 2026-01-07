@@ -27,7 +27,7 @@ Requirements
 - sentence-transformers==4.1.0
 - scikit-learn==1.6.1
 
-Direct to [ToxiGAN/codes/](codes/): Run train.py for training ToxiGAN. 
+Direct to [ToxiGAN/codes/](codes/): Run train.py for training of ToxiGAN. 
 ```
 $ python train.py 
 ```
