@@ -1,6 +1,6 @@
 # ToxiGAN: Toxic Data Augmentation via LLM-Guided Directional Adversarial Generation
 
-The paper can be viewed [here](https://arxiv.org/abs/2601.03121).
+The paper has been accepted to the main conference of EACL 2026, and can be viewed [here](https://arxiv.org/abs/2601.03121).
 
 ## Overall Framework of ToxiGAN
 ToxiGAN with k toxic generators, one neutral texts provider, and one multi-class discriminator:
