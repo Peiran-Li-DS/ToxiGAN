@@ -1,5 +1,7 @@
 # ToxiGAN: Toxic Data Augmentation via LLM-Guided Directional Adversarial Generation
 
+The paper can be viewed [here](https://arxiv.org/abs/2601.03121).
+
 ## Overall Framework of ToxiGAN
 ToxiGAN with k toxic generators, one neutral texts provider, and one multi-class discriminator:
 - Toxic Generator Module ($G$): Consists of multiple LSTM-based toxic generators and learns to generate samples for each toxic class from a noise distribution. Each class has a dedicated decoding branch.
@@ -25,7 +27,7 @@ Requirements
 - sentence-transformers==4.1.0
 - scikit-learn==1.6.1
 
-Direct to [ToxiGAN/codes](ToxiGAN/codes): Run train.py for training ToxiGAN. 
+Direct to [ToxiGAN/codes/](ToxiGAN/codes/): Run train.py for training ToxiGAN. 
 ```
 $ python train.py 
 ```
