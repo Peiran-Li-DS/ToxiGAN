@@ -28,9 +28,7 @@ The black arrow shows the initial generation after pretraining. Gray arrows repr
 
 <img src="figures/Two-Step.png" width="40%">
 
-t-SNE visualization of real and synthetic texts. Arrows indicate semantic shifts: neutral to toxic (green), out-of-domain to in-domain (purple), and their composite (blue).
 
-<img src="figures/t-sne.png" width="50%">
 
 ## To Start
 Requirements
