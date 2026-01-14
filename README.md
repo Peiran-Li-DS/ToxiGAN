@@ -44,10 +44,18 @@ Direct to [ToxiGAN/codes/](codes/): Run train.py for training of ToxiGAN.
 ```
 $ python train.py 
 ```
-After training of ToxiGAN, generate samples by command.
+After training of ToxiGAN, generate samples by the following command.
 ```
 $ python generate_samples.py 
 ```
 
-
-
+## Citation
+To cite this work, please use the following:
+```
+@article{li2026toxigan,
+  title={ToxiGAN: Toxic Data Augmentation via LLM-Guided Directional Adversarial Generation},
+  author={Li, Peiran and Fillies, Jan and Paschke, Adrian},
+  journal={arXiv preprint arXiv:2601.03121},
+  year={2026}
+}
+```
