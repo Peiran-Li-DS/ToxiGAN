@@ -34,7 +34,6 @@ t-SNE visualization of real and synthetic texts. Arrows indicate semantic shifts
 
 ## To Start
 Requirements
-- Python 3.10
 - PyTorch 2.6.0 + CUDA/cuDNN backend
 - transformers==4.53.3
 - sentence-transformers==4.1.0
