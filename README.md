@@ -49,10 +49,12 @@ $ python generate_samples.py
 ## Citation
 To cite this work, please use the following:
 ```
-@article{li2026toxigan,
-  title={ToxiGAN: Toxic Data Augmentation via LLM-Guided Directional Adversarial Generation},
-  author={Li, Peiran and Fillies, Jan and Paschke, Adrian},
-  journal={arXiv preprint arXiv:2601.03121},
-  year={2026}
+@inproceedings{
+    li2026toxigan,
+    title={Toxi{GAN}: Toxic Data Augmentation via {LLM}-Guided Directional Adversarial Generation},
+    author={Peiran Li and Jan Fillies and Adrian Paschke},
+    booktitle={19th Conference of the European Chapter of the Association for Computational Linguistics},
+    year={2026},
+    url={https://openreview.net/forum?id=l8RRGe8okJ}
 }
 ```
